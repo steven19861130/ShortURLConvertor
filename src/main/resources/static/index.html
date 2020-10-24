@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>url convertor</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .wrapper {
+            text-align: center;
+            padding: 100px;
+        }
+
+        .title {
+            padding: 50px;
+            font-size: 20px;
+        }
+
+        .input {
+            padding: 10px;
+            height: 25px;
+            width: 400px;
+        }
+
+        .button1,
+        .button2 {
+            height: 50px;
+        }
+
+        .select1{
+            height: 50px
+        }
+
+        .error {
+            height: 50px;
+            padding: 20px;
+            color: red;
+        }
+
+        .result {
+            width: 400px;
+            padding: 20px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class='wrapper'>
+    <div class="title">Long url convertor</div>
+    <input class="input" id="input"/>
+    <button class="button1" onclick="convert()">Convert</button><br>
+    URL Convert Expire Date:
+    <select class="select1" name="expire" id="expire">
+        <option value="3600">1 hour</option>
+        <option value="86300">1 day</option>
+        <option value="-1">No Expire</option>
+    </select>
+    <div class="error" id="error"></div>
+    <input disabled class="result" id="result"></input>
+    <button class="button2" onclick="redirectURL()">Redirect</button>
+</div>
+<script>
+    function convert() {
+        const inputValue = document.getElementById('input').value;
+        if (inputValue) {
+            $.ajax({
+                url: "/rest/shorturl/v1/getshorturl?longURL=" + inputValue + "&expire="+document.getElementById("expire").value,
+                type: 'GET',
+                success: function (res) {
+                    if (res.code == "SUCCESS") {
+                        document.getElementById("result").value = res.msg;
+                        document.getElementById("error").innerHTML = "";
+                    } else {
+                        document.getElementById("error").innerHTML = res.msg;
+                        document.getElementById("result").value = "";
+                    }
+                },
+                error: function (res) {
+                    document.getElementById("error").innerHTML = "server error";
+                }
+            });
+        } else {
+            document.getElementById("error").innerHTML = "url can't be empty";
+        }
+
+    }
+
+    function redirectURL() {
+        window.open(document.getElementById('result').value, '_blank');
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+[2020-10-24 16:11:44] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 27673 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:11:44] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:11:45] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.67 seconds (JVM running for 2.94)
+[2020-10-24 16:11:46] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 27673 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:11:46] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:11:46] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.675 seconds (JVM running for 3.866)
+[2020-10-24 16:12:33] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 27684 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:12:33] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:12:34] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.678 seconds (JVM running for 2.596)
+[2020-10-24 16:18:17] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 27725 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:18:17] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:18:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.742 seconds (JVM running for 2.782)
+[2020-10-24 16:19:16] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 27755 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:19:16] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:19:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.671 seconds (JVM running for 2.699)
+[2020-10-24 16:19:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 27765 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:19:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:19:36] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.447 seconds (JVM running for 2.474)
+[2020-10-24 16:19:36] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 27765 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:19:36] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:19:37] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.754 seconds (JVM running for 3.409)
+[2020-10-24 16:19:41] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 27771 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:19:41] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:19:41] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:19:41] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:19:41] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:19:42] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:19:42] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:19:42] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.296 seconds (JVM running for 1.625)
+[2020-10-24 16:19:49] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:24:49] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28061 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:24:49] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:24:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.47 seconds (JVM running for 2.438)
+[2020-10-24 16:24:50] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28061 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:24:50] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:24:51] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.652 seconds (JVM running for 3.284)
+[2020-10-24 16:24:55] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28064 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:24:55] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:24:55] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:24:55] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:24:55] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:24:55] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:24:56] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:24:56] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.278 seconds (JVM running for 1.608)
+[2020-10-24 16:25:03] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:26:06] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28084 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:26:06] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:26:07] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.471 seconds (JVM running for 2.423)
+[2020-10-24 16:26:07] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28084 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:26:07] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:26:08] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.618 seconds (JVM running for 3.223)
+[2020-10-24 16:26:18] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28090 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:26:18] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:26:19] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:26:19] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:26:19] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:26:19] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:26:19] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:26:19] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.156 seconds (JVM running for 1.467)
+[2020-10-24 16:26:45] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:38:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28704 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:38:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:38:23] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.49 seconds (JVM running for 2.488)
+[2020-10-24 16:38:23] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28704 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:38:23] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:38:24] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.622 seconds (JVM running for 3.294)
+[2020-10-24 16:38:27] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28710 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:38:27] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:38:28] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:38:28] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:38:28] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:38:28] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:38:28] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:38:28] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.28 seconds (JVM running for 1.621)
+[2020-10-24 16:38:37] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:39:44] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28736 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:39:44] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:39:45] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.496 seconds (JVM running for 2.514)
+[2020-10-24 16:39:45] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28736 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:39:45] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:39:46] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.714 seconds (JVM running for 3.408)
+[2020-10-24 16:39:49] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28742 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:39:49] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:39:50] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:39:50] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:39:50] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:39:50] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:39:50] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:39:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.185 seconds (JVM running for 1.498)
+[2020-10-24 16:39:56] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:48:03] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28850 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:48:03] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:48:04] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.479 seconds (JVM running for 2.474)
+[2020-10-24 16:48:05] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28850 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:48:05] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:48:05] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.746 seconds (JVM running for 3.401)
+[2020-10-24 16:48:08] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28860 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:48:08] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:48:09] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:48:09] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:48:09] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:48:09] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:48:09] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:48:09] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.344 seconds (JVM running for 1.656)
+[2020-10-24 16:48:33] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:49:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28904 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:49:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:49:35] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:49:35] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:49:35] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:49:35] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:49:36] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:49:36] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.424 seconds (JVM running for 7.262)
+[2020-10-24 16:49:41] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:53:10] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28933 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:53:10] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:53:11] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.438 seconds (JVM running for 2.488)
+[2020-10-24 16:53:11] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28933 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:53:11] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:53:12] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.643 seconds (JVM running for 3.313)
+[2020-10-24 16:53:15] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28940 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:53:15] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:53:15] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:15] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:53:15] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:53:15] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:53:16] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:16] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:16] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2020-10-24 16:53:16] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:16] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 28945 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:53:35] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:53:36] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:36] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:53:36] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:53:36] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:53:36] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:53:36] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.238 seconds (JVM running for 1.563)
+[2020-10-24 16:55:02] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 16:58:11] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 28992 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:58:11] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:58:12] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.423 seconds (JVM running for 2.386)
+[2020-10-24 16:58:12] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 28992 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:58:12] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:58:13] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.678 seconds (JVM running for 3.249)
+[2020-10-24 16:58:16] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29002 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 16:58:16] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 16:58:17] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:58:17] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 16:58:17] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 16:58:17] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 16:58:17] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 16:58:17] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.165 seconds (JVM running for 1.482)
+[2020-10-24 16:58:26] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:00:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29055 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:00:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:00:52] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.427 seconds (JVM running for 2.378)
+[2020-10-24 17:00:52] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29055 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:00:52] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:00:52] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.683 seconds (JVM running for 3.237)
+[2020-10-24 17:01:15] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29065 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:01:15] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:01:17] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.802 seconds (JVM running for 2.837)
+[2020-10-24 17:04:17] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29089 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:04:17] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:04:19] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.808 seconds (JVM running for 2.792)
+[2020-10-24 17:05:01] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29107 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:05:01] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:05:03] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.828 seconds (JVM running for 2.823)
+[2020-10-24 17:05:17] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29119 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:05:17] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:05:18] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.401 seconds (JVM running for 2.34)
+[2020-10-24 17:05:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29119 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:05:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:05:19] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.651 seconds (JVM running for 3.164)
+[2020-10-24 17:05:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29125 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:05:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:23] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:31] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29126 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:05:31] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:05:32] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:32] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:05:32] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:05:32] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:05:32] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:05:32] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.138 seconds (JVM running for 1.435)
+[2020-10-24 17:05:45] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:11:11] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29238 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:11:11] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:11:12] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.591 seconds (JVM running for 2.627)
+[2020-10-24 17:11:12] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29238 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:11:12] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:11:13] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.714 seconds (JVM running for 3.527)
+[2020-10-24 17:11:16] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29251 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:11:16] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:11:17] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:11:17] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:11:17] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:11:17] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:11:17] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:11:17] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.452 seconds (JVM running for 2.069)
+[2020-10-24 17:11:27] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:16:52] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29330 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:16:52] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:16:53] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.433 seconds (JVM running for 2.423)
+[2020-10-24 17:16:53] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29330 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:16:53] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:16:54] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.737 seconds (JVM running for 3.341)
+[2020-10-24 17:16:57] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29337 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:16:57] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:16:58] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:16:58] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:16:58] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:16:58] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:16:58] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:16:58] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.191 seconds (JVM running for 1.504)
+[2020-10-24 17:17:13] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:20:09] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29375 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:20:09] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:20:10] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.477 seconds (JVM running for 2.522)
+[2020-10-24 17:20:10] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29375 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:20:10] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:20:11] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.716 seconds (JVM running for 3.411)
+[2020-10-24 17:20:15] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29384 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:20:15] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:20:15] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:20:15] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:20:15] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:20:15] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:20:15] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:20:15] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.226 seconds (JVM running for 1.753)
+[2020-10-24 17:20:23] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:37:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29576 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:37:18] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:37:19] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.847 seconds (JVM running for 2.858)
+[2020-10-24 17:37:25] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29582 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:37:25] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:37:26] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.513 seconds (JVM running for 2.5)
+[2020-10-24 17:37:27] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29582 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:37:27] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:37:27] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.67 seconds (JVM running for 3.367)
+[2020-10-24 17:37:31] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 29586 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:37:31] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:37:31] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:37:31] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 17:37:31] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 17:37:31] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 17:37:32] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 17:37:32] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.421 seconds (JVM running for 1.739)
+[2020-10-24 17:37:39] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-24 17:47:07] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29758 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:47:07] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:47:08] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.837 seconds (JVM running for 2.819)
+[2020-10-24 17:47:51] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29766 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:47:51] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:47:52] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.838 seconds (JVM running for 2.82)
+[2020-10-24 17:49:29] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29806 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 17:49:29] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 17:49:31] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 1.84 seconds (JVM running for 2.82)
+[2020-10-24 18:01:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 29951 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:01:50] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:01:51] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.333 seconds (JVM running for 2.46)
+[2020-10-24 18:01:51] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 29951 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:01:51] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:01:52] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.693 seconds (JVM running for 3.392)
+[2020-10-24 18:06:42] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 30040 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:06:42] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:06:43] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.475 seconds (JVM running for 2.458)
+[2020-10-24 18:06:44] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 30040 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:06:44] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:06:45] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.865 seconds (JVM running for 3.619)
+[2020-10-24 18:08:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 30071 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:08:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:08:23] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.63 seconds (JVM running for 2.874)
+[2020-10-24 18:08:23] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 30071 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:08:23] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:08:24] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.841 seconds (JVM running for 3.917)
+[2020-10-24 18:14:21] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 30130 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:14:21] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:14:22] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.701 seconds (JVM running for 2.765)
+[2020-10-24 18:14:22] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 30130 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:14:22] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:14:23] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.714 seconds (JVM running for 3.704)
+[2020-10-24 18:14:52] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Starting ShorturldemoApplicationTests on C02ZX2C6MD6R with PID 30152 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:14:52] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:14:54] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplicationTests] -- Started ShorturldemoApplicationTests in 1.715 seconds (JVM running for 2.787)
+[2020-10-24 18:14:54] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Starting ShorURLConvertorServiceTest on C02ZX2C6MD6R with PID 30152 (started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:14:54] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:14:55] -- [INFO ]: [com.steven.shorturldemo.ShorURLConvertorServiceTest] -- Started ShorURLConvertorServiceTest in 0.793 seconds (JVM running for 3.811)
+[2020-10-24 18:15:00] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 30164 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-24 18:15:00] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-24 18:15:01] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-24 18:15:01] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-24 18:15:01] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-24 18:15:01] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-24 18:15:01] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-24 18:15:01] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.181 seconds (JVM running for 1.512)
+[2020-10-24 18:15:10] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring DispatcherServlet 'dispatcherServlet'

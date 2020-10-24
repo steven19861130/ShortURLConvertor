@@ -1,0 +1,8 @@
+[2020-10-22 19:09:41] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Starting ShorturldemoApplication on C02ZX2C6MD6R with PID 8430 (/Users/i078076/workspace/shorturldemo/build/classes/java/main started by i078076 in /Users/i078076/workspace/shorturldemo)
+[2020-10-22 19:09:41] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- No active profile set, falling back to default profiles: default
+[2020-10-22 19:09:41] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-22 19:09:41] -- [INFO ]: [org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2020-10-22 19:09:41] -- [INFO ]: [org.apache.catalina.core.StandardEngine] -- Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-10-22 19:09:41] -- [INFO ]: [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2020-10-22 19:09:41] -- [INFO ]: [org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-22 19:09:41] -- [INFO ]: [com.steven.shorturldemo.ShorturldemoApplication] -- Started ShorturldemoApplication in 1.097 seconds (JVM running for 1.394)
