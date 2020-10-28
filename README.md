@@ -1,1 +1,1 @@
-# ShortURLConvertor base on aws for testing
+# ShortURLConvertor base on aws
