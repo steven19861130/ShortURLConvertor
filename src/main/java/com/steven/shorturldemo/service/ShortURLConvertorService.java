@@ -1,5 +1,6 @@
 package com.steven.shorturldemo.service;
 
+import com.steven.shorturldemo.bean.EnvironmentProperties;
 import org.apache.commons.validator.UrlValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -17,6 +18,9 @@ public class ShortURLConvertorService {
 
     @Autowired
     URLMappingRedisService urlMappingRedisService;
+
+    @Autowired
+    EnvironmentProperties environmentProperties;
 
     //URL Validator
     UrlValidator urlValidator;
@@ -37,7 +41,6 @@ public class ShortURLConvertorService {
             }
             myChars[i] = (char) j;
         }
-        domain = "http://localhost:8080/rest";
         urlValidator = new UrlValidator();
     }
 
@@ -45,6 +48,7 @@ public class ShortURLConvertorService {
         StringBuilder shortURL = new StringBuilder();
         String unfiedLongURL = unifyURL(longURL);
         if (urlValidator.isValid(unfiedLongURL)) {
+            domain = "http://"+environmentProperties.getDomain()+"/rest";
             if (urlMappingRedisService.containsLongURL(unfiedLongURL)) {
                 shortURL.append(domain).append("/").append(urlMappingRedisService.getURL(unfiedLongURL));
             } else {

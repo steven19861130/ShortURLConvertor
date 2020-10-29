@@ -57,6 +57,7 @@
     <div class="error" id="error"></div>
     <input disabled class="result" id="result"></input>
     <button class="button2" onclick="redirectURL()">Redirect</button>
+    <button class="button2" onclick="copyURL()">Copy</button>
 </div>
 <script>
     function convert() {
@@ -86,6 +87,12 @@
 
     function redirectURL() {
         window.open(document.getElementById('result').value, '_blank');
+    }
+
+    function copyURL() {
+        const copyText = document.getElementById("result");
+        copyText.select();
+        document.execCommand("copy");
     }
 
 </script>

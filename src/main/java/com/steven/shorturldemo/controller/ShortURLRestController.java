@@ -36,8 +36,10 @@ public class ShortURLRestController {
     public ModelAndView redirectToLongURL(@PathVariable String shortURL, HttpServletResponse response) {
         String originalURL = shortURLConvertorService.getLongURL(shortURL);
         if (originalURL != null) {
+            logger.info("original URL:"+originalURL);
             return  new ModelAndView(new RedirectView(originalURL));
         } else {
+            logger.info("original URL:"+originalURL);
             try {
                 response.sendRedirect("/error.html");
             } catch (IOException e) {

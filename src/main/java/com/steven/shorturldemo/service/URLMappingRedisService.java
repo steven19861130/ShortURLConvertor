@@ -1,6 +1,6 @@
 package com.steven.shorturldemo.service;
 
-import com.steven.shorturldemo.bean.RedisProperties;
+import com.steven.shorturldemo.bean.EnvironmentProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import static com.steven.shorturldemo.util.Constants.*;
 public class URLMappingRedisService {
 
     @Autowired
-    private RedisProperties redisProperties;
+    private EnvironmentProperties redisProperties;
 
     Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -26,13 +26,14 @@ public class URLMappingRedisService {
 
     private void initJedis() {
         jedis = new Jedis(redisProperties.getHost(), redisProperties.getPort());
-        jedis.auth(redisProperties.getPassword());
+//        jedis.auth(redisProperties.getPassword());
         jedis.connect();
     }
 
     public String getURL(String key) {
         try {
             initJedis();
+            log.info("Get redis url:"+key);
             return jedis.get(key);
         } catch (Exception e) {
             log.error("Exception happen when get URL", e);
