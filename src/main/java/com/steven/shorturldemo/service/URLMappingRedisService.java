@@ -26,6 +26,7 @@ public class URLMappingRedisService {
 
     private void initJedis() {
         jedis = new Jedis(redisProperties.getHost(), redisProperties.getPort());
+        log.info("redis auth: "+redisProperties.getPassword());
         jedis.auth(redisProperties.getPassword());
         jedis.connect();
     }

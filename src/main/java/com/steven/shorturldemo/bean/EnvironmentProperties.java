@@ -14,7 +14,7 @@ public class EnvironmentProperties {
     @Value("${DOMAIN:localhost:8080}")
     private String domain;
 
-    @Value("${redis.auth}")
+    @Value("${redis.auth:default}")
     private String password;
 
     public String getHost() {
