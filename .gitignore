@@ -3,5 +3,5 @@
 /info
 /LOG_PATH_IS_UNDEFINED
 /shorturldemo.iml
-/.gradle
-/build
+.gradle/*
+build/*
