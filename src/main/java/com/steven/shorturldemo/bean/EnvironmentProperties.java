@@ -14,8 +14,8 @@ public class EnvironmentProperties {
     @Value("${DOMAIN:localhost:8080}")
     private String domain;
 
-//    @Value("${redis.password}")
-//    private String password;
+    @Value("${redis.password}")
+    private String password;
 
     public String getHost() {
         return host;
@@ -40,12 +40,12 @@ public class EnvironmentProperties {
     public void setDomain(String domain) {
         this.domain = domain;
     }
-    //
-//    public String getPassword() {
-//        return password;
-//    }
-//
-//    public void setPassword(String password) {
-//        this.password = password;
-//    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

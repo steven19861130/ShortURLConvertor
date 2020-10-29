@@ -26,7 +26,7 @@ public class URLMappingRedisService {
 
     private void initJedis() {
         jedis = new Jedis(redisProperties.getHost(), redisProperties.getPort());
-//        jedis.auth(redisProperties.getPassword());
+        jedis.auth(redisProperties.getPassword());
         jedis.connect();
     }
 
@@ -79,20 +79,4 @@ public class URLMappingRedisService {
         return false;
     }
 
-    //
-//    public int getIncrCount() {
-//        try {
-//            String incrCount = jedis.get(INCR_COUNT_KEY);
-//            if(incrCount == null){
-//                jedis.set(INCR_COUNT_KEY,String.valueOf(1));
-//                return 1;
-//            }
-//            return Integer.parseInt(incrCount);
-//        } catch (NumberFormatException nfe) {
-//            log.error("Exception happen when get Increment Count", nfe);
-//        } finally {
-//            jedis.disconnect();
-//        }
-//        return -1;
-//    }
 }
