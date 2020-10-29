@@ -4,7 +4,7 @@ pipeline {
     PATH = "/var/lib/jenkins/.ebcli-virtual-env/executables:/var/lib/jenkins/.pyenv/versions/3.7.2/bin:$PATH"
   }
   stages {
-   stage('Reponsitory Init') {
+   stage('SCM Init') {
       steps {
        script{
            sh 'env | grep PATH'
@@ -22,7 +22,7 @@ pipeline {
       }
     }
 
-    stage('Build') {
+    stage('Build & EB Deployment') {
       steps {
           script{
               dir('/var/lib/jenkins/workspace/ShortURLService/ShortURLConvertor'){
