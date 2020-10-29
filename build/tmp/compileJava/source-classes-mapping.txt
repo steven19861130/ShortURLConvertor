@@ -6,6 +6,8 @@ com/steven/shorturldemo/service/URLMappingRedisService.java
  com.steven.shorturldemo.service.URLMappingRedisService
 com/steven/shorturldemo/bean/ResponseCode.java
  com.steven.shorturldemo.bean.ResponseCode
+com/steven/shorturldemo/bean/EnvironmentProperties.java
+ com.steven.shorturldemo.bean.EnvironmentProperties
 com/steven/shorturldemo/bean/ResponseBean.java
  com.steven.shorturldemo.bean.ResponseBean
  com.steven.shorturldemo.bean.ResponseBean$1
