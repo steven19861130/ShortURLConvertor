@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 import static com.steven.shorturldemo.util.Constants.*;
 
@@ -21,25 +23,35 @@ public class URLMappingRedisService {
 
     private Jedis jedis;
 
+    private JedisPool jedisPool;
+
     public URLMappingRedisService() {
+        initJedisPool();
     }
 
-    private void initJedis() {
-        jedis = new Jedis(redisProperties.getHost(), redisProperties.getPort(),2000,2000,true);
-        log.info("redis auth: "+redisProperties.getPassword());
-        jedis.auth(redisProperties.getPassword());
-        jedis.connect();
+    private void initJedisPool() {
+        JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+        jedisPoolConfig.setMaxTotal(10);
+        jedisPoolConfig.setMaxIdle(5);
+        jedisPool = new JedisPool(jedisPoolConfig,redisProperties.getHost(),redisProperties.getPort(),2000,redisProperties.getPassword(),true);
     }
+
 
     public String getURL(String key) {
         try {
-            initJedis();
-            log.info("Get redis url:"+key);
+            jedis=jedisPool.getResource();
+            log.info("Get redis url:" + key);
             return jedis.get(key);
         } catch (Exception e) {
+            if(jedis != null) {
+                jedis.disconnect();
+                jedis = null;
+            }
             log.error("Exception happen when get URL", e);
         } finally {
-            jedis.disconnect();
+            if(jedis != null){
+                jedis.close();
+            }
             jedis = null;
         }
         return null;
@@ -47,10 +59,10 @@ public class URLMappingRedisService {
 
     public Object setShortURL(String shortURL, String longURL, String expire) {
         try {
-            initJedis();
-            if(expire.equals("-1")){
-                jedis.set(shortURL,longURL);
-                jedis.set(longURL,shortURL);
+            jedis=jedisPool.getResource();
+            if (expire.equals("-1")) {
+                jedis.set(shortURL, longURL);
+                jedis.set(longURL, shortURL);
                 return 2;
             }
 
@@ -59,9 +71,15 @@ public class URLMappingRedisService {
             }
             return jedis.evalsha(setURLScript, 3, shortURL, expire, longURL);
         } catch (Exception e) {
-            log.error("Exception happen when set URL", e);
+            if(jedis != null) {
+                jedis.disconnect();
+                jedis = null;
+            }
+            log.error("Exception happen when get URL", e);
         } finally {
-            jedis.disconnect();
+            if(jedis != null){
+                jedis.close();
+            }
             jedis = null;
         }
         return null;
@@ -69,12 +87,18 @@ public class URLMappingRedisService {
 
     public boolean containsLongURL(String longURL) {
         try {
-            initJedis();
+            jedis=jedisPool.getResource();
             return jedis.exists(longURL);
         } catch (Exception e) {
-            log.error("Exception happen when set URL", e);
+            if(jedis != null) {
+                jedis.disconnect();
+                jedis = null;
+            }
+            log.error("Exception happen when get URL", e);
         } finally {
-            jedis.disconnect();
+            if(jedis != null){
+                jedis.close();
+            }
             jedis = null;
         }
         return false;
