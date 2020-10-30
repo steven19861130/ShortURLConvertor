@@ -9,13 +9,14 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+import javax.annotation.PostConstruct;
+
 import static com.steven.shorturldemo.util.Constants.*;
 
 @Component(value = "urlMappingRedisService")
 public class URLMappingRedisService {
 
-    @Autowired
-    private EnvironmentProperties redisProperties;
+    private final EnvironmentProperties environmentProperties;
 
     Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -25,7 +26,8 @@ public class URLMappingRedisService {
 
     private JedisPool jedisPool;
 
-    public URLMappingRedisService() {
+    public URLMappingRedisService(EnvironmentProperties environmentProperties) {
+        this.environmentProperties = environmentProperties;
         initJedisPool();
     }
 
@@ -33,7 +35,7 @@ public class URLMappingRedisService {
         JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
         jedisPoolConfig.setMaxTotal(10);
         jedisPoolConfig.setMaxIdle(5);
-        jedisPool = new JedisPool(jedisPoolConfig,redisProperties.getHost(),redisProperties.getPort(),2000,redisProperties.getPassword(),true);
+        jedisPool = new JedisPool(jedisPoolConfig, environmentProperties.getHost(), environmentProperties.getPort(),2000, environmentProperties.getPassword(),true);
     }
 
 
