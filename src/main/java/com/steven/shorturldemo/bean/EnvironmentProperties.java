@@ -11,10 +11,10 @@ public class EnvironmentProperties {
     @Value("${redis.port}")
     private int port;
 
-    @Value("${DOMAIN:localhost:8080}")
+    @Value("${domain}")
     private String domain;
 
-    @Value("${redis.auth:default}")
+    @Value("${redis.auth}")
     private String password;
 
     public String getHost() {
