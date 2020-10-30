@@ -6,6 +6,7 @@ import com.steven.shorturldemo.service.ShortURLConvertorService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
@@ -37,7 +38,9 @@ public class ShortURLRestController {
         String originalURL = shortURLConvertorService.getLongURL(shortURL);
         if (originalURL != null) {
             logger.info("original URL:"+originalURL);
-            return  new ModelAndView(new RedirectView(originalURL));
+            ModelAndView modelAndView = new ModelAndView(new RedirectView(originalURL));
+            modelAndView.setStatus(HttpStatus.MOVED_PERMANENTLY);
+            return modelAndView;
         } else {
             logger.info("original URL:"+originalURL);
             try {
