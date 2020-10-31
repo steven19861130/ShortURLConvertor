@@ -32,7 +32,7 @@ pipeline {
     stage('Post Deployment Test'){
         steps {
             script{
-                def appStatus = sh(script:'eb status ShortUrlConvertor-env | grep Health', returnStdout:true)
+                def appStatus = sh(script:'eb status Shortenurlservice-env | grep Health', returnStdout:true)
                 if(!appStatus.contains('Green')){
                     error '"Post Deployment Test fail!!!"'
                 }
