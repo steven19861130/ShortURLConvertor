@@ -22,7 +22,7 @@ pipeline {
           steps {
               script{
                   dir('/var/lib/jenkins/workspace/ShortURLServiceJob'){
-                       sh 'eb deploy ShortUrlConvertor-env'
+                       sh 'eb deploy Shortenurlservice-env'
                     }
                 }
             }
