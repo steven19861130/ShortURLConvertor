@@ -4,28 +4,11 @@ pipeline {
     PATH = "/var/lib/jenkins/.ebcli-virtual-env/executables:/var/lib/jenkins/.pyenv/versions/3.7.2/bin:$PATH"
   }
   stages {
-   stage('SCM Init') {
-      steps {
-       script{
-           sh 'env | grep PATH'
-        dir('/var/lib/jenkins/workspace/ShortURLService') {
-            def exists = fileExists './ShortURLConvertor/'
-            if(exists){
-              dir('ShortURLConvertor') {
-                sh 'git pull'
-              }
-            }else{
-            sh 'git clone git@github.com:steven19861130/ShortURLConvertor.git'
-            }
-          }
-        }
-      }
-    }
 
-    stage('Build & EB Deployment') {
+    stage('Build') {
       steps {
           script{
-              dir('/var/lib/jenkins/workspace/ShortURLService/ShortURLConvertor'){
+              dir('/var/lib/jenkins/workspace/ShortURLServiceJob'){
                    sh './gradlew clean'
                    sh './gradlew test'
                    sh './gradlew assemble'
@@ -34,6 +17,16 @@ pipeline {
             }
         }
     }
+
+    stage('EB Deployment') {
+          steps {
+              script{
+                  dir('/var/lib/jenkins/workspace/ShortURLServiceJob'){
+                       sh 'eb deploy ShortUrlConvertor-env'
+                    }
+                }
+            }
+        }
 
 
     stage('Post Deployment Test'){

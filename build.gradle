@@ -15,6 +15,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-logging'
+
+
+    implementation 'junit:junit:4.12'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
@@ -22,7 +26,11 @@ dependencies {
     compile group: 'oro', name: 'oro', version: '2.0.8'
     compile group: 'redis.clients', name: 'jedis', version: '3.3.0'
     compile 'org.projectlombok:lombok:1.16.18'
-    implementation 'junit:junit:4.12'
+//    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+//    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+//    compile group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+
+
 
 
 }
