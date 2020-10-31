@@ -44,7 +44,6 @@ public class URLMappingRedisService {
     public String getURL(String key) {
         try {
             jedis = jedisPool.getResource();
-            log.info("Get redis url:" + key);
             return jedis.get(key);
         } catch (Exception e) {
             if (jedis != null) {
@@ -64,7 +63,6 @@ public class URLMappingRedisService {
     public Object setShortURL(String shortURL, String longURL, String expire) {
         try {
             jedis = jedisPool.getResource();
-            log.info("set redis url:" + longURL);
             if (expire.equals("-1")) {
                 jedis.set(shortURL, longURL);
                 jedis.set(longURL, shortURL);

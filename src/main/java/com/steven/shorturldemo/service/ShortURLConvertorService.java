@@ -11,10 +11,9 @@ import java.util.Random;
 public class ShortURLConvertorService {
 
     // storage for generated keys
-    private String domain; // Use this attribute to generate urls for a custom
-    private char myChars[]; // This array is used for character to number
-    private Random myRand; // Random object used to generate random integers
-    private int shortURLLength; // the key length in URL defaults to 8
+    private char myChars[];
+    private Random myRand;
+    private int shortURLLength;
 
     @Autowired
     URLMappingRedisService urlMappingRedisService;
@@ -22,10 +21,8 @@ public class ShortURLConvertorService {
     @Autowired
     EnvironmentProperties environmentProperties;
 
-    //URL Validator
     UrlValidator urlValidator;
 
-    // Default Constructor
     public ShortURLConvertorService() {
         myRand = new Random();
         shortURLLength = 8;
@@ -48,7 +45,7 @@ public class ShortURLConvertorService {
         StringBuilder shortURL = new StringBuilder();
         String unfiedLongURL = unifyURL(longURL);
         if (urlValidator.isValid(unfiedLongURL)) {
-            domain = "http://"+environmentProperties.getDomain()+"/rest";
+            String domain = "http://"+environmentProperties.getDomain()+"/rest";
             if (urlMappingRedisService.containsLongURL(unfiedLongURL)) {
                 shortURL.append(domain).append("/").append(urlMappingRedisService.getURL(unfiedLongURL));
             } else {
@@ -73,24 +70,6 @@ public class ShortURLConvertorService {
 
     }
 
-    // sanitizeURL
-    // This method should take care various issues with a valid url
-    // e.g. www.google.com,www.google.com/, http://www.google.com,
-    // http://www.google.com/
-    // all the above URL should point to same shortened URL
-    // There could be several other cases like these.
-    String sanitizeURL(String url) {
-        if (url.substring(0, 7).equals("http://"))
-            url = url.substring(7);
-
-        if (url.substring(0, 8).equals("https://"))
-            url = url.substring(8);
-
-        if (url.charAt(url.length() - 1) == '/')
-            url = url.substring(0, url.length() - 1);
-        return url;
-    }
-
     private String getShortURL(String longURL, String expire) {
         String shortURL;
         shortURL = generateShortURL();
@@ -98,6 +77,14 @@ public class ShortURLConvertorService {
         return shortURL;
     }
 
+    /**
+     * Using a-z/A-Z/0-9 construct 62 digits as char array to random generate short URL satisfy
+     * config length. ex www.google.com -> f7FG9Nbo
+     * Assume random algorithm make each char in this array pick up even, then each character is
+     * 1/62 possibility. We set 8 for URL length then duplicate probability will be (1/62)^8 =
+     * 5*(1/10^15) and it can be treated as IMPOSSIBLE.
+     * @return
+     */
     private String generateShortURL() {
         String shortURL = "";
         for (int i = 0; i <= shortURLLength; i++) {
