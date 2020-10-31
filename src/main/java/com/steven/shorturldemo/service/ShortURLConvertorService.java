@@ -45,7 +45,7 @@ public class ShortURLConvertorService {
         StringBuilder shortURL = new StringBuilder();
         String unfiedLongURL = unifyURL(longURL);
         if (urlValidator.isValid(unfiedLongURL)) {
-            String domain = "http://"+environmentProperties.getDomain()+"/rest";
+            String domain = "http://"+environmentProperties.getDomain();
             if (urlMappingRedisService.containsLongURL(unfiedLongURL)) {
                 shortURL.append(domain).append("/").append(urlMappingRedisService.getURL(unfiedLongURL));
             } else {

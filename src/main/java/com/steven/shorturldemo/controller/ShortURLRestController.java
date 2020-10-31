@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/rest")
 public class ShortURLRestController {
 
     Logger logger = LoggerFactory.getLogger(ShortURLRestController.class);
@@ -23,7 +22,7 @@ public class ShortURLRestController {
     @Autowired
     ShortURLConvertorService shortURLConvertorService;
 
-    @GetMapping("/shorturl/v1/getshorturl")
+    @GetMapping("/rest/shorturl/v1/getshorturl")
     public ResponseBean getShortURL(@RequestParam String longURL, @RequestParam String expire) {
         String shortURL = shortURLConvertorService.shortenURL(longURL,expire);
         if (!shortURL.isEmpty()) {
