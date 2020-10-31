@@ -43,7 +43,7 @@ public class ShortURLRestController {
             return modelAndView;
         } else {
             try {
-                response.sendRedirect("error.html");
+                response.sendRedirect("/error.html");
             } catch (IOException e) {
                 logger.error("Exception happen when send redirect", e);
             }
