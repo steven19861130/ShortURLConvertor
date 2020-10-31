@@ -12,7 +12,6 @@ pipeline {
                    sh './gradlew clean'
                    sh './gradlew test'
                    sh './gradlew assemble'
-                   sh 'eb deploy ShortUrlConvertor-env'
                 }
             }
         }
