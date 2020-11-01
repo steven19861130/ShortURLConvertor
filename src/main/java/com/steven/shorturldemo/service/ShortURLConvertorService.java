@@ -45,14 +45,13 @@ public class ShortURLConvertorService {
         StringBuilder shortURL = new StringBuilder();
         String unfiedLongURL = unifyURL(longURL);
         if (urlValidator.isValid(unfiedLongURL)) {
-            String domain = "http://"+environmentProperties.getDomain();
+            String domain = "https://"+environmentProperties.getDomain()+"/convertURL";
             if (urlMappingRedisService.containsLongURL(unfiedLongURL)) {
                 shortURL.append(domain).append("/").append(urlMappingRedisService.getURL(unfiedLongURL));
             } else {
                 shortURL.append(domain).append("/").append(getShortURL(unfiedLongURL,expire));
             }
         }
-        // add http part
         return shortURL.toString();
     }
 
