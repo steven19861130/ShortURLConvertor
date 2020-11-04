@@ -3,7 +3,7 @@ package com.steven.shorturldemo.bean;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value = "environmentProperties")
 public class EnvironmentProperties {
     @Value("${redis.host}")
     private String host;
